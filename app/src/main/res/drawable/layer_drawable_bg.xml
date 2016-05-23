@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/first_image">
+        <bitmap android:src="@drawable/logo"
+            android:gravity="center" />
+    </item>
+    <item android:id="@+id/second_image" android:top="10dp" android:left="10dp">
+        <bitmap android:src="@drawable/logo"
+            android:gravity="center" />
+    </item>
+    <!--<item android:id="@+id/third_image" android:top="20dp" android:left="20dp">
+        <bitmap android:src="@drawable/logo_25"
+            android:gravity="center" />
+    </item>-->
+</layer-list>

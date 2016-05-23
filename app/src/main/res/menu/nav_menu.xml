@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/quiz"
+            android:checked="false"
+            android:icon="@drawable/start"
+            android:title="@string/start_quiz" />
+
+        <item
+            android:id="@+id/myexam"
+            android:checked="false"
+            android:icon="@drawable/done"
+            android:title="@string/my_examination"/>
+        <item
+            android:id="@+id/logout"
+            android:checked="false"
+            android:icon="@drawable/start"
+            android:title="@string/logout"
+
+            />
+
+        <item
+            android:id="@+id/sent_mail"
+            android:checked="false"
+            android:icon="@drawable/start"
+            android:title="@string/inbox_string"
+            android:visible="false"/>
+
+        <item
+            android:id="@+id/drafts"
+            android:checked="false"
+            android:icon="@drawable/start"
+            android:visible="false"
+            android:title="@string/inbox_string"/>
+
+
+        <item
+            android:id="@+id/allmail"
+            android:checked="false"
+            android:icon="@drawable/start"
+            android:visible="false"
+            android:title="@string/inbox_string" />
+        <item
+            android:id="@+id/trash"
+            android:checked="false"
+            android:icon="@drawable/start"
+            android:visible="false"
+            android:title="@string/inbox_string"/>
+
+    </group>
+</menu>
